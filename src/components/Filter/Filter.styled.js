@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const Span = styled.span`
-font-size: 36px;
-`
+  font-size: 36px;
+`;
 
 export const FilterInput = styled.div`
-display: flex;
-flex-direction: column;
-`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const Input = styled.input`
-color: #010101;
+  color: #010101;
   background-color: #fff;
   padding: 4px;
   margin-top: 10px;
@@ -27,4 +27,4 @@ color: #010101;
     box-shadow: 0 0 10px #80a3f9;
     background-color: #fff;
   }
-`
+`;

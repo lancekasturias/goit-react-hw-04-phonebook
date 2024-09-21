@@ -5,13 +5,13 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  font-size: 36px;
+  font-size: 30px;
 `;
 export const Button = styled.button`
   border: 2px solid #b1b1b2;
   border-radius: 4px;
   background-color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   padding: 4px 8px;
   margin-top: 20px;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);

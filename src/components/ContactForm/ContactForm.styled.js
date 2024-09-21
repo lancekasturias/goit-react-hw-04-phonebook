@@ -11,7 +11,7 @@ export const Field = styled(FormikField)`
   border-radius: 4px;
   min-height: 30px;
   width: 250px;
-  font-size: 24px;
+  font-size: 20px;
 
   &:focus {
     outline: none;
@@ -33,7 +33,7 @@ export const Form = styled(FormikForm)`
 `;
 
 export const Label = styled.label`
-  font-size: 36px;
+  font-size: 30px;
 
   &:not(:first-child) {
     margin-top: 20px;
@@ -41,16 +41,16 @@ export const Label = styled.label`
 `;
 
 export const Button = styled.button`
-width: 150px;
-border: 2px solid #b1b1b2;
-border-radius: 4px;
-background-color: #fff;
-font-size: 24px;
-padding: 4px;
-margin-top: 20px;
-box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);
-&:hover{
-    background-color: #0442DC;
+  width: 150px;
+  border: 2px solid #b1b1b2;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 24px;
+  padding: 4px;
+  margin-top: 20px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);
+  &:hover {
+    background-color: #0442dc;
     color: #fff;
-}
-`
+  }
+`;
